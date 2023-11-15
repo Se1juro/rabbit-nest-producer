@@ -1,6 +1,6 @@
 import { Inject, Injectable } from '@nestjs/common';
 import { ClientProxy } from '@nestjs/microservices';
-import { generateUID } from 'src/utils/randomId.util';
+import { generateUID } from '../utils/randomId.util';
 
 @Injectable()
 export class UsersService {
